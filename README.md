@@ -3,10 +3,12 @@ is a plugin to collapse and expand partial long text, use on previews descriptio
 
 ## How to use this plugin
 
-Your Hmtml
-` html:5 
-`
+I your `scrypt` put one this code to call the plugin
 
-// $(".collapse-text").collapseText();
-// $(".collapse-text").collapseText({height:40});
-// $("#collapse-text").collapseText({height: 40, more: "LEER MAS..", minus: "LEER MENOS..."});
+```
+$(".collapse-text").collapseText();
+
+$(".collapse-text").collapseText({height:40});
+
+$("#collapse-text").collapseText({height: 40, more: "LEER MAS..", minus: "LEER MENOS..."});
+```
